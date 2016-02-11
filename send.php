@@ -25,7 +25,7 @@ h1 { color: #555;
      text-align: center;   }
 
 #cccontainer{ position: absolute;
-              top: 48%;
+              top: 40%;
               margin-top: -10px;
               left: 0;
               width: 100%; }
@@ -84,7 +84,7 @@ $comment = $_POST["comment"];
   //send email
   if (!mail($to,$subject,$txt)){
 }
-  echo"<center> Verstuurd </center>";
+echo"<center> <h1>Successfully sent </h1></center>";
 ?>
 
 
